@@ -1,0 +1,47 @@
+body{
+  width: 673px;
+  margin: 10px auto;
+}
+
+b:first-child, tr:nth-child(3) th:nth-child(1), tr:nth-child(4) th:nth-child(2), tr:nth-child(4) th:nth-child(3), u:first-child{
+  color: #FF0000;
+}
+
+b:last-child, letter, th:nth-child(2), th:nth-child(3), tr:nth-child(2) th:nth-child(1){
+  color: #FFBF51;
+}
+
+caption, i, h2{
+  color: #0000FF;
+}
+
+h1{
+  color: #008484;
+}
+
+letters{
+  color: #FF11FF;
+}
+
+p:last-child u, tr:nth-child(2) td:nth-child(2), tr:nth-child(2) td:nth-child(3), tr:nth-child(3) td:nth-child(2), tr:nth-child(3) td:nth-child(3){
+  color: #02851E;
+}
+
+p:nth-child(6), p:nth-child(7), p:last-child{
+  color: #848400;
+}
+
+table{
+  display: table;
+  border-collapse: collapse;
+  border-spacing: 0px;
+  margin-bottom: 20px;
+}
+
+td, th {
+  text-align: center;
+  width: 135px;
+  display: table-cell;
+  border: 1px solid #000;
+  padding: 5px;
+}
